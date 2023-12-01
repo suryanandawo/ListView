@@ -9,25 +9,30 @@
     >
 
     <EditText
+        android:id="@+id/nama"
         android:layout_width="264dp"
         android:layout_height="45dp"
         android:layout_marginTop="220dp"
         android:layout_centerHorizontal="true"
-        android:hint="   nama"
+        android:hint="nama"
         android:textSize="14dp"
+        android:paddingLeft="10dp"
+        android:inputType="textEmailAddress"
         android:textColor="#000000"
         tools:layout_editor_absoluteX="74dp"
         tools:layout_editor_absoluteY="216dp"
         android:background="@drawable/rectangle1"/>
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/katasandi"
         android:layout_width="264dp"
         android:layout_height="45dp"
         android:layout_marginTop="280dp"
         android:layout_centerHorizontal="true"
-        android:hint="  kata sandi"
+        android:hint="kata sandi"
         android:textSize="14dp"
+        android:paddingLeft="10dp"
+        android:inputType="textPassword"
         android:textColor="#000000"
         tools:layout_editor_absoluteX="74dp"
         tools:layout_editor_absoluteY="278dp"
@@ -66,5 +71,7 @@
             tools:layout_editor_absoluteX="106dp"
             tools:layout_editor_absoluteY="431dp"
             android:background="@drawable/rectangle2"/>
+
+
 
 </RelativeLayout>
